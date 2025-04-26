@@ -1,3 +1,5 @@
 # Awesome Bomber Man
 
-Unity game project.  Avoid the bombs.
+Game created with Unity engine.
+
+Avoid the bombs!
