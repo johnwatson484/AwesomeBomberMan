@@ -39,4 +39,12 @@ public class PlayerScript : MonoBehaviour
 
         transform.position = targetPosition;
     }
+
+    void OnTriggerEnter2D(Collider2D target)
+    {
+        if (target.tag == "Bomb")
+        {
+            Time.timeScale = 0f; // Pause the game
+        }
+    }
 }
